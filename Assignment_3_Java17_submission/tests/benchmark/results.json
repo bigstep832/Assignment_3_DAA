@@ -1,0 +1,203 @@
+{
+  "environment": {
+    "java_version": "21.0.10",
+    "java_vendor": "Oracle Corporation",
+    "vm_name": "Java HotSpot(TM) 64-Bit Server VM",
+    "vm_flags": [
+      "-Xms384m",
+      "-Xmx384m"
+    ],
+    "os": "Windows 11",
+    "os_version": "10.0",
+    "architecture": "amd64",
+    "available_processors": 12,
+    "max_heap_bytes": 402653184
+  },
+  "timer": "System.nanoTime(); raw integer nanoseconds",
+  "timing_boundary": "Core method call including internal adjacency/heap or sort/DSU construction and returned result allocation; excludes compilation, process launch, input generation, JSON parsing/serialization, validation, and hashing.",
+  "warmup_calls_per_method_per_size": 3,
+  "preflight_calls_per_method_per_size": 1,
+  "measured_calls_per_method_per_size": 5,
+  "gc_policy": "Default JVM policy; no forced System.gc(); GC and JIT effects inside measured calls are included.",
+  "generator": "java.util.Random(BASE_SEED+n); negative spanning chain, positive extra edges, forced loops/parallel edges, Fisher-Yates shuffle; see Benchmark.java.",
+  "base_seed": 20261025,
+  "hash_format": "SHA-256 over signed int32 big-endian n, m, then u,v,w for every edge in input order.",
+  "measurements": [
+    {
+      "n": 1000,
+      "m": 2500,
+      "seed": 20262025,
+      "input_sha256": "bbc14279045a61de164bdc52af6008369d832bc0c92361edc77c184248ddbeab",
+      "expected_cost": -497627141390,
+      "expected_components": 1,
+      "all_forests_valid": true,
+      "input_unchanged": true,
+      "execution_order": [
+        [
+          "kruskal",
+          "prim"
+        ],
+        [
+          "prim",
+          "kruskal"
+        ],
+        [
+          "kruskal",
+          "prim"
+        ],
+        [
+          "prim",
+          "kruskal"
+        ],
+        [
+          "kruskal",
+          "prim"
+        ]
+      ],
+      "timings_ns": {
+        "kruskal": [
+          1077400,
+          888800,
+          811500,
+          801200,
+          974100
+        ],
+        "prim": [
+          1136300,
+          1022500,
+          1753100,
+          1717500,
+          2145300
+        ]
+      },
+      "median_ns": {
+        "prim": 1717500,
+        "kruskal": 888800
+      }
+    },
+    {
+      "n": 10000,
+      "m": 25000,
+      "seed": 20271025,
+      "input_sha256": "e4ce0f6b4ed7badfc259cdf8d3802c1ece12217f432eb19f355bd1702c162516",
+      "expected_cost": -4943193831344,
+      "expected_components": 1,
+      "all_forests_valid": true,
+      "input_unchanged": true,
+      "execution_order": [
+        [
+          "kruskal",
+          "prim"
+        ],
+        [
+          "prim",
+          "kruskal"
+        ],
+        [
+          "kruskal",
+          "prim"
+        ],
+        [
+          "prim",
+          "kruskal"
+        ],
+        [
+          "kruskal",
+          "prim"
+        ]
+      ],
+      "timings_ns": {
+        "kruskal": [
+          18181700,
+          18267400,
+          16798900,
+          20625500,
+          24384800
+        ],
+        "prim": [
+          11009600,
+          7236000,
+          8466400,
+          7659000,
+          7188400
+        ]
+      },
+      "median_ns": {
+        "prim": 7659000,
+        "kruskal": 18267400
+      }
+    },
+    {
+      "n": 100000,
+      "m": 250000,
+      "seed": 20361025,
+      "input_sha256": "09c0716e5e8355409f95229983d8ee549a0293f77803b536d8eb5cb8b613387b",
+      "expected_cost": -50058277603493,
+      "expected_components": 1,
+      "all_forests_valid": true,
+      "input_unchanged": true,
+      "execution_order": [
+        [
+          "kruskal",
+          "prim"
+        ],
+        [
+          "prim",
+          "kruskal"
+        ],
+        [
+          "kruskal",
+          "prim"
+        ],
+        [
+          "prim",
+          "kruskal"
+        ],
+        [
+          "kruskal",
+          "prim"
+        ]
+      ],
+      "timings_ns": {
+        "kruskal": [
+          154615300,
+          151619700,
+          153164000,
+          161661000,
+          170737100
+        ],
+        "prim": [
+          196732500,
+          205505100,
+          212409900,
+          220158800,
+          207928600
+        ]
+      },
+      "median_ns": {
+        "prim": 207928600,
+        "kruskal": 154615300
+      }
+    }
+  ],
+  "validation": "Every preflight, warm-up, and measured result passed independent BFS-based witness checks and the analytically known optimum.",
+  "limitations": "Single JVM execution on connected sparse planted-tree graphs with m=2.5n; negative chain edges are always preferred over positive extras. This does not represent all graph families or prove a general speed ranking. Five samples may include JIT/GC/scheduling noise.",
+  "run_completed_utc": "2026-10-25T16:01:44.065339+00:00",
+  "driver_command": "python tests/benchmark/run_benchmark.py",
+  "compile_command": "javac --release 17 -encoding UTF-8 -d .build/benchmark src/Java/*.java tests/benchmark/Benchmark.java",
+  "runtime_command": "java -Xms384m -Xmx384m -cp .build/benchmark Benchmark",
+  "hardware": {
+    "processor": "12th Gen Intel(R) Core(TM) i5-12450HX",
+    "logical_processors": 12,
+    "machine": "AMD64",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_driver": "3.12.14"
+  },
+  "source_sha256": {
+    "src/Java/Algorithms.java": "970dda172e0fe69a252526bd363a27c0e35abe8ff07ee9de2a2e16921d1aeca5",
+    "src/Java/Input.java": "e335f7a453e67c600a499b1d29bba89193cac1d1e7f4d71eeb8fea22a1954f98",
+    "src/Java/Json.java": "24c02d64b395041c7fead715eacc83f07ff8057b6c5f103a13bae19dbf345ad5",
+    "src/Java/Main.java": "176233f36342d2b6830d362e7d4051be1fa5ca650b31176facc504666efd4494",
+    "tests/benchmark/Benchmark.java": "0c0b7ff641da4feca7f64259e4dbb9a879530dba4c2f764e41656259cf98367d"
+  }
+}

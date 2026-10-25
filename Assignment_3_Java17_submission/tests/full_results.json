@@ -1,0 +1,92 @@
+[
+  {
+    "name": "full_dsu",
+    "n": 100000,
+    "m_or_q": 250000,
+    "passed": true,
+    "seconds_including_transport": 1.5776819999999816,
+    "justification": "A chain merges one new vertex per operation; remaining operations are self/repeated unions.",
+    "input_sha256": "263a057683efb866faea66f3d509702b1794da9f53e2f90a961f360dff191bac",
+    "actual_sha256": "4d6605d0a69cb7ced654646bfd3318f0a1df8c3c1403db212e64f403736fd1a0"
+  },
+  {
+    "name": "full_kruskal",
+    "n": 100000,
+    "m_or_q": 250000,
+    "passed": true,
+    "seconds_including_transport": 0.7692512999999508,
+    "justification": "The underlying graph is a chain with parallel copies. Every spanning tree has n-1 edges of weight -10^9.",
+    "input_sha256": "60c8a430d93442e6b21cdebaea6cd1cd6b8155003dd9816ae145ab783cb85fcd",
+    "actual_sha256": "c579ae09c141a1ed155884b376a0987be52639d46a314dc3162da3c09b059e71"
+  },
+  {
+    "name": "full_prim",
+    "n": 100000,
+    "m_or_q": 250000,
+    "passed": true,
+    "seconds_including_transport": 0.861124200000063,
+    "justification": "The underlying graph is a chain with parallel copies. Every spanning tree has n-1 edges of weight -10^9.",
+    "input_sha256": "e8a9803408d7d6182c7423f6552adf5fe516323da864790fc73c9b19e4abbbff",
+    "actual_sha256": "c579ae09c141a1ed155884b376a0987be52639d46a314dc3162da3c09b059e71"
+  },
+  {
+    "name": "full_dag",
+    "n": 100000,
+    "m_or_q": 250000,
+    "passed": true,
+    "seconds_including_transport": 0.9494775000000573,
+    "justification": "Only consecutive forward steps exist, so distance[i]=-i*10^9.",
+    "input_sha256": "d51054236b70952793e868c4e2033f2c7b3d52e297acce9b3532c611eb72986a",
+    "actual_sha256": "266febf0d5e24b5f2c567c5544a744646bdd8ec3022d998c3a455485fafc0e3e"
+  },
+  {
+    "name": "full_scc_chain",
+    "n": 100000,
+    "m_or_q": 250000,
+    "passed": true,
+    "seconds_including_transport": 0.877043599999979,
+    "justification": "All edges go forward along a chain. Every SCC is a singleton and condensation has n-1 distinct pairs.",
+    "input_sha256": "15f9170c9289f46aace0a5bd0343d5215798476325a2382a2ec932330ecf61ca",
+    "actual_sha256": "15318c4d1fa74b277f0be37b494396f238787a6550dc13df06ecc85adeaa16a7"
+  },
+  {
+    "name": "full_topo_chain",
+    "n": 100000,
+    "m_or_q": 250000,
+    "passed": true,
+    "seconds_including_transport": 0.785712999999987,
+    "justification": "The complete chain forces increasing order; duplicate forward edges do not create cycles.",
+    "input_sha256": "f1e526bd540620eab4c1449dcca3e4988f6fb9af4924952243ea35d76e21f9dd",
+    "actual_sha256": "34fb80dfe7b956ee25840140db976b5f64b4a770b7e904a61b5b01a83e0d8c2e"
+  },
+  {
+    "name": "full_scc_cycle",
+    "n": 100000,
+    "m_or_q": 250000,
+    "passed": true,
+    "seconds_including_transport": 0.7676903000000266,
+    "justification": "The chain plus last-to-first edge forms one SCC containing every vertex.",
+    "input_sha256": "a5d1e0b494a63e4d457fbd0575139a1163e37af8e228080f8a631272ad6589f8",
+    "actual_sha256": "808f55f2c7ba26622a25f21076a6425a6220e35591260e013040ff8e5a01faa6"
+  },
+  {
+    "name": "full_topo_cycle",
+    "n": 100000,
+    "m_or_q": 250000,
+    "passed": true,
+    "seconds_including_transport": 0.94077429999993,
+    "justification": "The back edge closes a directed cycle at depth 100000.",
+    "input_sha256": "64579dbc3ccde63a2c5bd5d67bd991222b77d50d3c580d097abb6948e475585e",
+    "actual_sha256": "ddaaae5fe4ed97fcd3f8068e72a31f0b2424de6ff14164656c93bbf2a19f2245"
+  },
+  {
+    "name": "full_dag_unreachable_cycle",
+    "n": 100000,
+    "m_or_q": 250000,
+    "passed": true,
+    "seconds_including_transport": 0.5708623000000443,
+    "justification": "Source 0 is isolated, while vertices 1..99999 form a deep cycle that must still be detected.",
+    "input_sha256": "b02d94f7a56dec1665578e0c5917d47e2d84d92fc0d8e57ffc22400ac43eca8c",
+    "actual_sha256": "97b721f696d2c2ceb76dd1c8103c2136cda8fddca365d3bc68d5921f3a5a4da7"
+  }
+]

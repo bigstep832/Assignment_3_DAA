@@ -1,0 +1,10993 @@
+[
+  {
+    "name": "random_00_dsu_0",
+    "input": {
+      "task": "dsu",
+      "n": 1,
+      "operations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_00_kruskal_1",
+    "input": {
+      "task": "kruskal",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          -8
+        ],
+        [
+          0,
+          0,
+          8
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_00_prim_2",
+    "input": {
+      "task": "prim",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          -8
+        ],
+        [
+          0,
+          0,
+          8
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_00_scc_3",
+    "input": {
+      "task": "scc",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_00_topo_4",
+    "input": {
+      "task": "topo",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_00_dag_5",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": [
+        [
+          0,
+          0,
+          -8
+        ],
+        [
+          0,
+          0,
+          8
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_00_dag_6",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0
+      ],
+      "parent_edge": [
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_01_dsu_7",
+    "input": {
+      "task": "dsu",
+      "n": 1,
+      "operations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_01_kruskal_8",
+    "input": {
+      "task": "kruskal",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          -2
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          -6
+        ],
+        [
+          0,
+          0,
+          7
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_01_prim_9",
+    "input": {
+      "task": "prim",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          -2
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          -6
+        ],
+        [
+          0,
+          0,
+          7
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_01_scc_10",
+    "input": {
+      "task": "scc",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_01_topo_11",
+    "input": {
+      "task": "topo",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_01_dag_12",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": [
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          -2
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          -6
+        ],
+        [
+          0,
+          0,
+          7
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_01_dag_13",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0
+      ],
+      "parent_edge": [
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_02_dsu_14",
+    "input": {
+      "task": "dsu",
+      "n": 6,
+      "operations": [
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_02_kruskal_15",
+    "input": {
+      "task": "kruskal",
+      "n": 6,
+      "edges": [
+        [
+          4,
+          5,
+          -2
+        ],
+        [
+          2,
+          2,
+          -3
+        ],
+        [
+          3,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 2,
+      "edge_ids": [
+        0,
+        3
+      ],
+      "components": 4
+    }
+  },
+  {
+    "name": "random_02_prim_16",
+    "input": {
+      "task": "prim",
+      "n": 6,
+      "edges": [
+        [
+          4,
+          5,
+          -2
+        ],
+        [
+          2,
+          2,
+          -3
+        ],
+        [
+          3,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 2,
+      "edge_ids": [
+        0,
+        3
+      ],
+      "components": 4
+    }
+  },
+  {
+    "name": "random_02_scc_17",
+    "input": {
+      "task": "scc",
+      "n": 6,
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "condensation": [
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_02_topo_18",
+    "input": {
+      "task": "topo",
+      "n": 6,
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_02_dag_19",
+    "input": {
+      "task": "dag",
+      "n": 6,
+      "source": 5,
+      "edges": [
+        [
+          4,
+          5,
+          -2
+        ],
+        [
+          2,
+          2,
+          -3
+        ],
+        [
+          3,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_02_dag_20",
+    "input": {
+      "task": "dag",
+      "n": 6,
+      "source": 1,
+      "edges": [
+        [
+          5,
+          2,
+          -3
+        ],
+        [
+          1,
+          4,
+          6
+        ],
+        [
+          1,
+          5,
+          -7
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        null,
+        0,
+        -10,
+        2,
+        6,
+        -7
+      ],
+      "parent_edge": [
+        -1,
+        -1,
+        0,
+        4,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "name": "random_03_dsu_21",
+    "input": {
+      "task": "dsu",
+      "n": 1,
+      "operations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_03_kruskal_22",
+    "input": {
+      "task": "kruskal",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          -3
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          -2
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          7
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_03_prim_23",
+    "input": {
+      "task": "prim",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          -3
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          -2
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          7
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_03_scc_24",
+    "input": {
+      "task": "scc",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_03_topo_25",
+    "input": {
+      "task": "topo",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_03_dag_26",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": [
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          -3
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          -2
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          7
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_03_dag_27",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0
+      ],
+      "parent_edge": [
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_04_dsu_28",
+    "input": {
+      "task": "dsu",
+      "n": 2,
+      "operations": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_04_kruskal_29",
+    "input": {
+      "task": "kruskal",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          -7
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -7,
+      "edge_ids": [
+        1
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_04_prim_30",
+    "input": {
+      "task": "prim",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          -7
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -7,
+      "edge_ids": [
+        1
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_04_scc_31",
+    "input": {
+      "task": "scc",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        0
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_04_topo_32",
+    "input": {
+      "task": "topo",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_04_dag_33",
+    "input": {
+      "task": "dag",
+      "n": 2,
+      "source": 1,
+      "edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          -7
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_04_dag_34",
+    "input": {
+      "task": "dag",
+      "n": 2,
+      "source": 0,
+      "edges": [
+        [
+          0,
+          1,
+          -2
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          7
+        ],
+        [
+          0,
+          1,
+          -4
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0,
+        -4
+      ],
+      "parent_edge": [
+        -1,
+        4
+      ]
+    }
+  },
+  {
+    "name": "random_05_dsu_35",
+    "input": {
+      "task": "dsu",
+      "n": 5,
+      "operations": [
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_05_kruskal_36",
+    "input": {
+      "task": "kruskal",
+      "n": 5,
+      "edges": [
+        [
+          2,
+          2,
+          -6
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          -4
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -3
+        ],
+        [
+          3,
+          0,
+          5
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          3,
+          2,
+          3
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -4,
+      "edge_ids": [
+        2,
+        4,
+        7
+      ],
+      "components": 2
+    }
+  },
+  {
+    "name": "random_05_prim_37",
+    "input": {
+      "task": "prim",
+      "n": 5,
+      "edges": [
+        [
+          2,
+          2,
+          -6
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          -4
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -3
+        ],
+        [
+          3,
+          0,
+          5
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          3,
+          2,
+          3
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -4,
+      "edge_ids": [
+        2,
+        4,
+        7
+      ],
+      "components": 2
+    }
+  },
+  {
+    "name": "random_05_scc_38",
+    "input": {
+      "task": "scc",
+      "n": 5,
+      "edges": [
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "condensation": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_05_topo_39",
+    "input": {
+      "task": "topo",
+      "n": 5,
+      "edges": [
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_05_dag_40",
+    "input": {
+      "task": "dag",
+      "n": 5,
+      "source": 3,
+      "edges": [
+        [
+          2,
+          2,
+          -6
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          -4
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -3
+        ],
+        [
+          3,
+          0,
+          5
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          3,
+          2,
+          3
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_05_dag_41",
+    "input": {
+      "task": "dag",
+      "n": 5,
+      "source": 1,
+      "edges": [
+        [
+          2,
+          0,
+          -3
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          3,
+          2,
+          7
+        ],
+        [
+          4,
+          0,
+          -7
+        ],
+        [
+          2,
+          0,
+          -5
+        ],
+        [
+          4,
+          2,
+          2
+        ],
+        [
+          3,
+          1,
+          -5
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        null,
+        0,
+        null,
+        null,
+        null
+      ],
+      "parent_edge": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_06_dsu_42",
+    "input": {
+      "task": "dsu",
+      "n": 5,
+      "operations": [
+        [
+          3,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          4,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_06_kruskal_43",
+    "input": {
+      "task": "kruskal",
+      "n": 5,
+      "edges": [
+        [
+          3,
+          0,
+          -7
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -7,
+      "edge_ids": [
+        0
+      ],
+      "components": 4
+    }
+  },
+  {
+    "name": "random_06_prim_44",
+    "input": {
+      "task": "prim",
+      "n": 5,
+      "edges": [
+        [
+          3,
+          0,
+          -7
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -7,
+      "edge_ids": [
+        0
+      ],
+      "components": 4
+    }
+  },
+  {
+    "name": "random_06_scc_45",
+    "input": {
+      "task": "scc",
+      "n": 5,
+      "edges": [
+        [
+          3,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "condensation": [
+        [
+          3,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_06_topo_46",
+    "input": {
+      "task": "topo",
+      "n": 5,
+      "edges": [
+        [
+          3,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "order": [
+        1,
+        2,
+        3,
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "name": "random_06_dag_47",
+    "input": {
+      "task": "dag",
+      "n": 5,
+      "source": 0,
+      "edges": [
+        [
+          3,
+          0,
+          -7
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0,
+        null,
+        null,
+        null,
+        null
+      ],
+      "parent_edge": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_06_dag_48",
+    "input": {
+      "task": "dag",
+      "n": 5,
+      "source": 0,
+      "edges": [
+        [
+          4,
+          1,
+          -2
+        ],
+        [
+          0,
+          4,
+          8
+        ],
+        [
+          0,
+          4,
+          -6
+        ],
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          4,
+          -5
+        ],
+        [
+          2,
+          4,
+          -2
+        ],
+        [
+          3,
+          2,
+          -6
+        ],
+        [
+          3,
+          4,
+          4
+        ],
+        [
+          0,
+          4,
+          3
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0,
+        -8,
+        null,
+        null,
+        -6
+      ],
+      "parent_edge": [
+        -1,
+        0,
+        -1,
+        -1,
+        2
+      ]
+    }
+  },
+  {
+    "name": "random_07_dsu_49",
+    "input": {
+      "task": "dsu",
+      "n": 2,
+      "operations": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_07_kruskal_50",
+    "input": {
+      "task": "kruskal",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          0,
+          -8
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          -2
+        ],
+        [
+          0,
+          0,
+          7
+        ],
+        [
+          1,
+          0,
+          4
+        ],
+        [
+          1,
+          1,
+          -1
+        ],
+        [
+          1,
+          0,
+          -3
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -3,
+      "edge_ids": [
+        6
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_07_prim_51",
+    "input": {
+      "task": "prim",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          0,
+          -8
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          -2
+        ],
+        [
+          0,
+          0,
+          7
+        ],
+        [
+          1,
+          0,
+          4
+        ],
+        [
+          1,
+          1,
+          -1
+        ],
+        [
+          1,
+          0,
+          -3
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -3,
+      "edge_ids": [
+        6
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_07_scc_52",
+    "input": {
+      "task": "scc",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        0
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_07_topo_53",
+    "input": {
+      "task": "topo",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_07_dag_54",
+    "input": {
+      "task": "dag",
+      "n": 2,
+      "source": 0,
+      "edges": [
+        [
+          0,
+          0,
+          -8
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          -2
+        ],
+        [
+          0,
+          0,
+          7
+        ],
+        [
+          1,
+          0,
+          4
+        ],
+        [
+          1,
+          1,
+          -1
+        ],
+        [
+          1,
+          0,
+          -3
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_07_dag_55",
+    "input": {
+      "task": "dag",
+      "n": 2,
+      "source": 0,
+      "edges": [
+        [
+          0,
+          1,
+          -3
+        ],
+        [
+          0,
+          1,
+          -5
+        ],
+        [
+          0,
+          1,
+          -6
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0,
+        -6
+      ],
+      "parent_edge": [
+        -1,
+        2
+      ]
+    }
+  },
+  {
+    "name": "random_08_dsu_56",
+    "input": {
+      "task": "dsu",
+      "n": 3,
+      "operations": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_08_kruskal_57",
+    "input": {
+      "task": "kruskal",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          0,
+          7
+        ],
+        [
+          2,
+          1,
+          -7
+        ],
+        [
+          0,
+          1,
+          -5
+        ],
+        [
+          0,
+          0,
+          -5
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          0,
+          -4
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -12,
+      "edge_ids": [
+        1,
+        2
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_08_prim_58",
+    "input": {
+      "task": "prim",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          0,
+          7
+        ],
+        [
+          2,
+          1,
+          -7
+        ],
+        [
+          0,
+          1,
+          -5
+        ],
+        [
+          0,
+          0,
+          -5
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          0,
+          -4
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -12,
+      "edge_ids": [
+        1,
+        2
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_08_scc_59",
+    "input": {
+      "task": "scc",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        1,
+        2
+      ],
+      "condensation": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_08_topo_60",
+    "input": {
+      "task": "topo",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_08_dag_61",
+    "input": {
+      "task": "dag",
+      "n": 3,
+      "source": 2,
+      "edges": [
+        [
+          0,
+          0,
+          7
+        ],
+        [
+          2,
+          1,
+          -7
+        ],
+        [
+          0,
+          1,
+          -5
+        ],
+        [
+          0,
+          0,
+          -5
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          0,
+          -4
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_08_dag_62",
+    "input": {
+      "task": "dag",
+      "n": 3,
+      "source": 0,
+      "edges": [
+        [
+          1,
+          0,
+          4
+        ],
+        [
+          1,
+          2,
+          -6
+        ],
+        [
+          0,
+          2,
+          7
+        ],
+        [
+          0,
+          2,
+          -4
+        ],
+        [
+          1,
+          2,
+          -8
+        ],
+        [
+          1,
+          2,
+          8
+        ],
+        [
+          1,
+          2,
+          8
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0,
+        null,
+        -4
+      ],
+      "parent_edge": [
+        -1,
+        -1,
+        3
+      ]
+    }
+  },
+  {
+    "name": "random_09_dsu_63",
+    "input": {
+      "task": "dsu",
+      "n": 1,
+      "operations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_09_kruskal_64",
+    "input": {
+      "task": "kruskal",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          -4
+        ],
+        [
+          0,
+          0,
+          8
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_09_prim_65",
+    "input": {
+      "task": "prim",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          -4
+        ],
+        [
+          0,
+          0,
+          8
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_09_scc_66",
+    "input": {
+      "task": "scc",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_09_topo_67",
+    "input": {
+      "task": "topo",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_09_dag_68",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": [
+        [
+          0,
+          0,
+          -4
+        ],
+        [
+          0,
+          0,
+          8
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_09_dag_69",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0
+      ],
+      "parent_edge": [
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_10_dsu_70",
+    "input": {
+      "task": "dsu",
+      "n": 1,
+      "operations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_10_kruskal_71",
+    "input": {
+      "task": "kruskal",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          -7
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_10_prim_72",
+    "input": {
+      "task": "prim",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          -7
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_10_scc_73",
+    "input": {
+      "task": "scc",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_10_topo_74",
+    "input": {
+      "task": "topo",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_10_dag_75",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": [
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          -7
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_10_dag_76",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0
+      ],
+      "parent_edge": [
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_11_dsu_77",
+    "input": {
+      "task": "dsu",
+      "n": 3,
+      "operations": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_11_kruskal_78",
+    "input": {
+      "task": "kruskal",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          6
+        ],
+        [
+          2,
+          2,
+          7
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          -2
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          -2
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -1,
+      "edge_ids": [
+        3,
+        4
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_11_prim_79",
+    "input": {
+      "task": "prim",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          6
+        ],
+        [
+          2,
+          2,
+          7
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          -2
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          -2
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -1,
+      "edge_ids": [
+        3,
+        4
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_11_scc_80",
+    "input": {
+      "task": "scc",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        1,
+        2
+      ],
+      "condensation": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_11_topo_81",
+    "input": {
+      "task": "topo",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_11_dag_82",
+    "input": {
+      "task": "dag",
+      "n": 3,
+      "source": 1,
+      "edges": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          6
+        ],
+        [
+          2,
+          2,
+          7
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          -2
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          -2
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_11_dag_83",
+    "input": {
+      "task": "dag",
+      "n": 3,
+      "source": 2,
+      "edges": [
+        [
+          1,
+          2,
+          -7
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          -8
+        ],
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          0,
+          2,
+          -4
+        ],
+        [
+          1,
+          2,
+          -2
+        ],
+        [
+          0,
+          1,
+          7
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        null,
+        null,
+        0
+      ],
+      "parent_edge": [
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_12_dsu_84",
+    "input": {
+      "task": "dsu",
+      "n": 6,
+      "operations": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_12_kruskal_85",
+    "input": {
+      "task": "kruskal",
+      "n": 6,
+      "edges": [
+        [
+          1,
+          3,
+          7
+        ],
+        [
+          1,
+          2,
+          -6
+        ],
+        [
+          5,
+          0,
+          3
+        ],
+        [
+          1,
+          5,
+          3
+        ],
+        [
+          2,
+          5,
+          -2
+        ],
+        [
+          2,
+          5,
+          -3
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 1,
+      "edge_ids": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "components": 2
+    }
+  },
+  {
+    "name": "random_12_prim_86",
+    "input": {
+      "task": "prim",
+      "n": 6,
+      "edges": [
+        [
+          1,
+          3,
+          7
+        ],
+        [
+          1,
+          2,
+          -6
+        ],
+        [
+          5,
+          0,
+          3
+        ],
+        [
+          1,
+          5,
+          3
+        ],
+        [
+          2,
+          5,
+          -2
+        ],
+        [
+          2,
+          5,
+          -3
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 1,
+      "edge_ids": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "components": 2
+    }
+  },
+  {
+    "name": "random_12_scc_87",
+    "input": {
+      "task": "scc",
+      "n": 6,
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "condensation": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          5,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_12_topo_88",
+    "input": {
+      "task": "topo",
+      "n": 6,
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "order": [
+        1,
+        4,
+        3,
+        2,
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "name": "random_12_dag_89",
+    "input": {
+      "task": "dag",
+      "n": 6,
+      "source": 3,
+      "edges": [
+        [
+          1,
+          3,
+          7
+        ],
+        [
+          1,
+          2,
+          -6
+        ],
+        [
+          5,
+          0,
+          3
+        ],
+        [
+          1,
+          5,
+          3
+        ],
+        [
+          2,
+          5,
+          -2
+        ],
+        [
+          2,
+          5,
+          -3
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        null,
+        null,
+        null,
+        0,
+        null,
+        null
+      ],
+      "parent_edge": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_12_dag_90",
+    "input": {
+      "task": "dag",
+      "n": 6,
+      "source": 3,
+      "edges": [
+        [
+          5,
+          2,
+          -1
+        ],
+        [
+          5,
+          4,
+          1
+        ],
+        [
+          1,
+          0,
+          -5
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          4,
+          -1
+        ],
+        [
+          5,
+          0,
+          -2
+        ],
+        [
+          3,
+          0,
+          -6
+        ],
+        [
+          3,
+          2,
+          7
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        -6,
+        null,
+        7,
+        0,
+        -1,
+        null
+      ],
+      "parent_edge": [
+        6,
+        -1,
+        7,
+        -1,
+        4,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_13_dsu_91",
+    "input": {
+      "task": "dsu",
+      "n": 2,
+      "operations": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_13_kruskal_92",
+    "input": {
+      "task": "kruskal",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          -8
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -8,
+      "edge_ids": [
+        3
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_13_prim_93",
+    "input": {
+      "task": "prim",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          -8
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -8,
+      "edge_ids": [
+        3
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_13_scc_94",
+    "input": {
+      "task": "scc",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        0
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_13_topo_95",
+    "input": {
+      "task": "topo",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_13_dag_96",
+    "input": {
+      "task": "dag",
+      "n": 2,
+      "source": 1,
+      "edges": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          -8
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_13_dag_97",
+    "input": {
+      "task": "dag",
+      "n": 2,
+      "source": 0,
+      "edges": [
+        [
+          1,
+          0,
+          7
+        ],
+        [
+          1,
+          0,
+          5
+        ],
+        [
+          1,
+          0,
+          -4
+        ],
+        [
+          1,
+          0,
+          7
+        ],
+        [
+          1,
+          0,
+          -3
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0,
+        null
+      ],
+      "parent_edge": [
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_14_dsu_98",
+    "input": {
+      "task": "dsu",
+      "n": 6,
+      "operations": []
+    },
+    "expected": {
+      "states": []
+    }
+  },
+  {
+    "name": "random_14_kruskal_99",
+    "input": {
+      "task": "kruskal",
+      "n": 6,
+      "edges": []
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 6
+    }
+  },
+  {
+    "name": "random_14_prim_100",
+    "input": {
+      "task": "prim",
+      "n": 6,
+      "edges": []
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 6
+    }
+  },
+  {
+    "name": "random_14_scc_101",
+    "input": {
+      "task": "scc",
+      "n": 6,
+      "edges": []
+    },
+    "expected": {
+      "component": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_14_topo_102",
+    "input": {
+      "task": "topo",
+      "n": 6,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "name": "random_14_dag_103",
+    "input": {
+      "task": "dag",
+      "n": 6,
+      "source": 0,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "parent_edge": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_14_dag_104",
+    "input": {
+      "task": "dag",
+      "n": 6,
+      "source": 2,
+      "edges": [
+        [
+          4,
+          5,
+          -6
+        ],
+        [
+          0,
+          4,
+          -1
+        ],
+        [
+          0,
+          5,
+          5
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          -1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          3,
+          4,
+          -8
+        ],
+        [
+          4,
+          5,
+          -1
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        null,
+        null,
+        0,
+        null,
+        null,
+        null
+      ],
+      "parent_edge": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_15_dsu_105",
+    "input": {
+      "task": "dsu",
+      "n": 1,
+      "operations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_15_kruskal_106",
+    "input": {
+      "task": "kruskal",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_15_prim_107",
+    "input": {
+      "task": "prim",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_15_scc_108",
+    "input": {
+      "task": "scc",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_15_topo_109",
+    "input": {
+      "task": "topo",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_15_dag_110",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": [
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_15_dag_111",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0
+      ],
+      "parent_edge": [
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_16_dsu_112",
+    "input": {
+      "task": "dsu",
+      "n": 5,
+      "operations": [
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          5,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_16_kruskal_113",
+    "input": {
+      "task": "kruskal",
+      "n": 5,
+      "edges": [
+        [
+          4,
+          4,
+          -3
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 5
+    }
+  },
+  {
+    "name": "random_16_prim_114",
+    "input": {
+      "task": "prim",
+      "n": 5,
+      "edges": [
+        [
+          4,
+          4,
+          -3
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 5
+    }
+  },
+  {
+    "name": "random_16_scc_115",
+    "input": {
+      "task": "scc",
+      "n": 5,
+      "edges": [
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_16_topo_116",
+    "input": {
+      "task": "topo",
+      "n": 5,
+      "edges": [
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_16_dag_117",
+    "input": {
+      "task": "dag",
+      "n": 5,
+      "source": 3,
+      "edges": [
+        [
+          4,
+          4,
+          -3
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_16_dag_118",
+    "input": {
+      "task": "dag",
+      "n": 5,
+      "source": 2,
+      "edges": [
+        [
+          3,
+          4,
+          -7
+        ],
+        [
+          2,
+          0,
+          -3
+        ],
+        [
+          1,
+          4,
+          -7
+        ],
+        [
+          2,
+          0,
+          -3
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        -3,
+        null,
+        0,
+        null,
+        null
+      ],
+      "parent_edge": [
+        1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_17_dsu_119",
+    "input": {
+      "task": "dsu",
+      "n": 1,
+      "operations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_17_kruskal_120",
+    "input": {
+      "task": "kruskal",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          -4
+        ],
+        [
+          0,
+          0,
+          -2
+        ],
+        [
+          0,
+          0,
+          -8
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -3
+        ],
+        [
+          0,
+          0,
+          -7
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          -6
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_17_prim_121",
+    "input": {
+      "task": "prim",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          -4
+        ],
+        [
+          0,
+          0,
+          -2
+        ],
+        [
+          0,
+          0,
+          -8
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -3
+        ],
+        [
+          0,
+          0,
+          -7
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          -6
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_17_scc_122",
+    "input": {
+      "task": "scc",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_17_topo_123",
+    "input": {
+      "task": "topo",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_17_dag_124",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": [
+        [
+          0,
+          0,
+          -4
+        ],
+        [
+          0,
+          0,
+          -2
+        ],
+        [
+          0,
+          0,
+          -8
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -3
+        ],
+        [
+          0,
+          0,
+          -7
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          -6
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_17_dag_125",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0
+      ],
+      "parent_edge": [
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_18_dsu_126",
+    "input": {
+      "task": "dsu",
+      "n": 2,
+      "operations": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_18_kruskal_127",
+    "input": {
+      "task": "kruskal",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1,
+          -4
+        ],
+        [
+          0,
+          1,
+          -5
+        ],
+        [
+          1,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          1,
+          0,
+          7
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          -6
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -5,
+      "edge_ids": [
+        1
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_18_prim_128",
+    "input": {
+      "task": "prim",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1,
+          -4
+        ],
+        [
+          0,
+          1,
+          -5
+        ],
+        [
+          1,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          1,
+          0,
+          7
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          -6
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -5,
+      "edge_ids": [
+        1
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_18_scc_129",
+    "input": {
+      "task": "scc",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        0
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_18_topo_130",
+    "input": {
+      "task": "topo",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_18_dag_131",
+    "input": {
+      "task": "dag",
+      "n": 2,
+      "source": 0,
+      "edges": [
+        [
+          0,
+          1,
+          -4
+        ],
+        [
+          0,
+          1,
+          -5
+        ],
+        [
+          1,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          1,
+          0,
+          7
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          -6
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_18_dag_132",
+    "input": {
+      "task": "dag",
+      "n": 2,
+      "source": 0,
+      "edges": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          7
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          -6
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0,
+        -6
+      ],
+      "parent_edge": [
+        -1,
+        3
+      ]
+    }
+  },
+  {
+    "name": "random_19_dsu_133",
+    "input": {
+      "task": "dsu",
+      "n": 4,
+      "operations": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_19_kruskal_134",
+    "input": {
+      "task": "kruskal",
+      "n": 4,
+      "edges": [
+        [
+          1,
+          3,
+          -2
+        ],
+        [
+          3,
+          2,
+          -4
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -6,
+      "edge_ids": [
+        0,
+        1
+      ],
+      "components": 2
+    }
+  },
+  {
+    "name": "random_19_prim_135",
+    "input": {
+      "task": "prim",
+      "n": 4,
+      "edges": [
+        [
+          1,
+          3,
+          -2
+        ],
+        [
+          3,
+          2,
+          -4
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -6,
+      "edge_ids": [
+        0,
+        1
+      ],
+      "components": 2
+    }
+  },
+  {
+    "name": "random_19_scc_136",
+    "input": {
+      "task": "scc",
+      "n": 4,
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "condensation": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_19_topo_137",
+    "input": {
+      "task": "topo",
+      "n": 4,
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "order": [
+        0,
+        1,
+        3,
+        2
+      ]
+    }
+  },
+  {
+    "name": "random_19_dag_138",
+    "input": {
+      "task": "dag",
+      "n": 4,
+      "source": 0,
+      "edges": [
+        [
+          1,
+          3,
+          -2
+        ],
+        [
+          3,
+          2,
+          -4
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0,
+        null,
+        null,
+        null
+      ],
+      "parent_edge": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_19_dag_139",
+    "input": {
+      "task": "dag",
+      "n": 4,
+      "source": 0,
+      "edges": [
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          3,
+          2,
+          -8
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          -8
+        ],
+        [
+          1,
+          3,
+          0
+        ],
+        [
+          1,
+          2,
+          -7
+        ],
+        [
+          0,
+          2,
+          -3
+        ],
+        [
+          0,
+          2,
+          -7
+        ],
+        [
+          1,
+          3,
+          -4
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0,
+        null,
+        -8,
+        4
+      ],
+      "parent_edge": [
+        -1,
+        -1,
+        3,
+        2
+      ]
+    }
+  },
+  {
+    "name": "random_20_dsu_140",
+    "input": {
+      "task": "dsu",
+      "n": 6,
+      "operations": [
+        [
+          0,
+          4
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_20_kruskal_141",
+    "input": {
+      "task": "kruskal",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          4,
+          -8
+        ],
+        [
+          5,
+          2,
+          -2
+        ],
+        [
+          4,
+          0,
+          6
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          4,
+          4,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -10,
+      "edge_ids": [
+        0,
+        1,
+        3
+      ],
+      "components": 3
+    }
+  },
+  {
+    "name": "random_20_prim_142",
+    "input": {
+      "task": "prim",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          4,
+          -8
+        ],
+        [
+          5,
+          2,
+          -2
+        ],
+        [
+          4,
+          0,
+          6
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          4,
+          4,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -10,
+      "edge_ids": [
+        0,
+        1,
+        3
+      ],
+      "components": 3
+    }
+  },
+  {
+    "name": "random_20_scc_143",
+    "input": {
+      "task": "scc",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        5
+      ],
+      "condensation": [
+        [
+          1,
+          2
+        ],
+        [
+          5,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_20_topo_144",
+    "input": {
+      "task": "topo",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_20_dag_145",
+    "input": {
+      "task": "dag",
+      "n": 6,
+      "source": 0,
+      "edges": [
+        [
+          0,
+          4,
+          -8
+        ],
+        [
+          5,
+          2,
+          -2
+        ],
+        [
+          4,
+          0,
+          6
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          4,
+          4,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_20_dag_146",
+    "input": {
+      "task": "dag",
+      "n": 6,
+      "source": 0,
+      "edges": [
+        [
+          0,
+          3,
+          -5
+        ],
+        [
+          4,
+          1,
+          -1
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          2,
+          -5
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          4,
+          -8
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0,
+        -9,
+        -13,
+        -5,
+        -8,
+        null
+      ],
+      "parent_edge": [
+        -1,
+        1,
+        4,
+        0,
+        6,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_21_dsu_147",
+    "input": {
+      "task": "dsu",
+      "n": 1,
+      "operations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_21_kruskal_148",
+    "input": {
+      "task": "kruskal",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          -6
+        ],
+        [
+          0,
+          0,
+          -4
+        ],
+        [
+          0,
+          0,
+          -8
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          -7
+        ],
+        [
+          0,
+          0,
+          -4
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_21_prim_149",
+    "input": {
+      "task": "prim",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          -6
+        ],
+        [
+          0,
+          0,
+          -4
+        ],
+        [
+          0,
+          0,
+          -8
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          -7
+        ],
+        [
+          0,
+          0,
+          -4
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_21_scc_150",
+    "input": {
+      "task": "scc",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_21_topo_151",
+    "input": {
+      "task": "topo",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_21_dag_152",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": [
+        [
+          0,
+          0,
+          -6
+        ],
+        [
+          0,
+          0,
+          -4
+        ],
+        [
+          0,
+          0,
+          -8
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          -7
+        ],
+        [
+          0,
+          0,
+          -4
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_21_dag_153",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0
+      ],
+      "parent_edge": [
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_22_dsu_154",
+    "input": {
+      "task": "dsu",
+      "n": 4,
+      "operations": [
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_22_kruskal_155",
+    "input": {
+      "task": "kruskal",
+      "n": 4,
+      "edges": [
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          1,
+          3,
+          1
+        ],
+        [
+          3,
+          0,
+          -8
+        ],
+        [
+          0,
+          1,
+          -2
+        ],
+        [
+          0,
+          1,
+          -3
+        ],
+        [
+          1,
+          0,
+          -5
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -13,
+      "edge_ids": [
+        2,
+        5
+      ],
+      "components": 2
+    }
+  },
+  {
+    "name": "random_22_prim_156",
+    "input": {
+      "task": "prim",
+      "n": 4,
+      "edges": [
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          1,
+          3,
+          1
+        ],
+        [
+          3,
+          0,
+          -8
+        ],
+        [
+          0,
+          1,
+          -2
+        ],
+        [
+          0,
+          1,
+          -3
+        ],
+        [
+          1,
+          0,
+          -5
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -13,
+      "edge_ids": [
+        2,
+        5
+      ],
+      "components": 2
+    }
+  },
+  {
+    "name": "random_22_scc_157",
+    "input": {
+      "task": "scc",
+      "n": 4,
+      "edges": [
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_22_topo_158",
+    "input": {
+      "task": "topo",
+      "n": 4,
+      "edges": [
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_22_dag_159",
+    "input": {
+      "task": "dag",
+      "n": 4,
+      "source": 1,
+      "edges": [
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          1,
+          3,
+          1
+        ],
+        [
+          3,
+          0,
+          -8
+        ],
+        [
+          0,
+          1,
+          -2
+        ],
+        [
+          0,
+          1,
+          -3
+        ],
+        [
+          1,
+          0,
+          -5
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_22_dag_160",
+    "input": {
+      "task": "dag",
+      "n": 4,
+      "source": 3,
+      "edges": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          -3
+        ],
+        [
+          1,
+          2,
+          -8
+        ],
+        [
+          1,
+          2,
+          -2
+        ],
+        [
+          1,
+          0,
+          -3
+        ],
+        [
+          2,
+          0,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        -3,
+        null,
+        null,
+        0
+      ],
+      "parent_edge": [
+        1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_23_dsu_161",
+    "input": {
+      "task": "dsu",
+      "n": 6,
+      "operations": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          5,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_23_kruskal_162",
+    "input": {
+      "task": "kruskal",
+      "n": 6,
+      "edges": [
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 1,
+      "edge_ids": [
+        0
+      ],
+      "components": 5
+    }
+  },
+  {
+    "name": "random_23_prim_163",
+    "input": {
+      "task": "prim",
+      "n": 6,
+      "edges": [
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 1,
+      "edge_ids": [
+        0
+      ],
+      "components": 5
+    }
+  },
+  {
+    "name": "random_23_scc_164",
+    "input": {
+      "task": "scc",
+      "n": 6,
+      "edges": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "condensation": [
+        [
+          2,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_23_topo_165",
+    "input": {
+      "task": "topo",
+      "n": 6,
+      "edges": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "order": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        3
+      ]
+    }
+  },
+  {
+    "name": "random_23_dag_166",
+    "input": {
+      "task": "dag",
+      "n": 6,
+      "source": 1,
+      "edges": [
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        null,
+        0,
+        null,
+        null,
+        null,
+        null
+      ],
+      "parent_edge": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_23_dag_167",
+    "input": {
+      "task": "dag",
+      "n": 6,
+      "source": 2,
+      "edges": [
+        [
+          4,
+          1,
+          -5
+        ],
+        [
+          2,
+          1,
+          -2
+        ],
+        [
+          4,
+          0,
+          0
+        ],
+        [
+          4,
+          5,
+          5
+        ],
+        [
+          5,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          -8
+        ],
+        [
+          5,
+          1,
+          7
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        null,
+        -2,
+        0,
+        null,
+        null,
+        null
+      ],
+      "parent_edge": [
+        -1,
+        1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_24_dsu_168",
+    "input": {
+      "task": "dsu",
+      "n": 1,
+      "operations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_24_kruskal_169",
+    "input": {
+      "task": "kruskal",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          -7
+        ],
+        [
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          -2
+        ],
+        [
+          0,
+          0,
+          -8
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_24_prim_170",
+    "input": {
+      "task": "prim",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          -7
+        ],
+        [
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          -2
+        ],
+        [
+          0,
+          0,
+          -8
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_24_scc_171",
+    "input": {
+      "task": "scc",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_24_topo_172",
+    "input": {
+      "task": "topo",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_24_dag_173",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": [
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          -7
+        ],
+        [
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          -2
+        ],
+        [
+          0,
+          0,
+          -8
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_24_dag_174",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0
+      ],
+      "parent_edge": [
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_25_dsu_175",
+    "input": {
+      "task": "dsu",
+      "n": 3,
+      "operations": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_25_kruskal_176",
+    "input": {
+      "task": "kruskal",
+      "n": 3,
+      "edges": [
+        [
+          1,
+          2,
+          -2
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          -2
+        ],
+        [
+          2,
+          1,
+          7
+        ],
+        [
+          0,
+          0,
+          -8
+        ],
+        [
+          2,
+          0,
+          7
+        ],
+        [
+          2,
+          1,
+          -2
+        ],
+        [
+          1,
+          2,
+          8
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -4,
+      "edge_ids": [
+        0,
+        2
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_25_prim_177",
+    "input": {
+      "task": "prim",
+      "n": 3,
+      "edges": [
+        [
+          1,
+          2,
+          -2
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          -2
+        ],
+        [
+          2,
+          1,
+          7
+        ],
+        [
+          0,
+          0,
+          -8
+        ],
+        [
+          2,
+          0,
+          7
+        ],
+        [
+          2,
+          1,
+          -2
+        ],
+        [
+          1,
+          2,
+          8
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -4,
+      "edge_ids": [
+        0,
+        2
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_25_scc_178",
+    "input": {
+      "task": "scc",
+      "n": 3,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        0,
+        0
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_25_topo_179",
+    "input": {
+      "task": "topo",
+      "n": 3,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_25_dag_180",
+    "input": {
+      "task": "dag",
+      "n": 3,
+      "source": 1,
+      "edges": [
+        [
+          1,
+          2,
+          -2
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          -2
+        ],
+        [
+          2,
+          1,
+          7
+        ],
+        [
+          0,
+          0,
+          -8
+        ],
+        [
+          2,
+          0,
+          7
+        ],
+        [
+          2,
+          1,
+          -2
+        ],
+        [
+          1,
+          2,
+          8
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_25_dag_181",
+    "input": {
+      "task": "dag",
+      "n": 3,
+      "source": 2,
+      "edges": [
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          2,
+          0,
+          -8
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          -8
+        ],
+        [
+          1,
+          2,
+          -5
+        ],
+        [
+          1,
+          0,
+          8
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        -8,
+        null,
+        0
+      ],
+      "parent_edge": [
+        1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_26_dsu_182",
+    "input": {
+      "task": "dsu",
+      "n": 2,
+      "operations": []
+    },
+    "expected": {
+      "states": []
+    }
+  },
+  {
+    "name": "random_26_kruskal_183",
+    "input": {
+      "task": "kruskal",
+      "n": 2,
+      "edges": []
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 2
+    }
+  },
+  {
+    "name": "random_26_prim_184",
+    "input": {
+      "task": "prim",
+      "n": 2,
+      "edges": []
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 2
+    }
+  },
+  {
+    "name": "random_26_scc_185",
+    "input": {
+      "task": "scc",
+      "n": 2,
+      "edges": []
+    },
+    "expected": {
+      "component": [
+        0,
+        1
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_26_topo_186",
+    "input": {
+      "task": "topo",
+      "n": 2,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "order": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "name": "random_26_dag_187",
+    "input": {
+      "task": "dag",
+      "n": 2,
+      "source": 0,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0,
+        null
+      ],
+      "parent_edge": [
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_26_dag_188",
+    "input": {
+      "task": "dag",
+      "n": 2,
+      "source": 0,
+      "edges": [
+        [
+          1,
+          0,
+          -2
+        ],
+        [
+          1,
+          0,
+          5
+        ],
+        [
+          1,
+          0,
+          -2
+        ],
+        [
+          1,
+          0,
+          6
+        ],
+        [
+          1,
+          0,
+          -5
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0,
+        null
+      ],
+      "parent_edge": [
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_27_dsu_189",
+    "input": {
+      "task": "dsu",
+      "n": 6,
+      "operations": []
+    },
+    "expected": {
+      "states": []
+    }
+  },
+  {
+    "name": "random_27_kruskal_190",
+    "input": {
+      "task": "kruskal",
+      "n": 6,
+      "edges": []
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 6
+    }
+  },
+  {
+    "name": "random_27_prim_191",
+    "input": {
+      "task": "prim",
+      "n": 6,
+      "edges": []
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 6
+    }
+  },
+  {
+    "name": "random_27_scc_192",
+    "input": {
+      "task": "scc",
+      "n": 6,
+      "edges": []
+    },
+    "expected": {
+      "component": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_27_topo_193",
+    "input": {
+      "task": "topo",
+      "n": 6,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "name": "random_27_dag_194",
+    "input": {
+      "task": "dag",
+      "n": 6,
+      "source": 4,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        null,
+        null,
+        null,
+        null,
+        0,
+        null
+      ],
+      "parent_edge": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_27_dag_195",
+    "input": {
+      "task": "dag",
+      "n": 6,
+      "source": 3,
+      "edges": [
+        [
+          1,
+          2,
+          -5
+        ],
+        [
+          5,
+          4,
+          -3
+        ],
+        [
+          4,
+          1,
+          8
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          4,
+          2,
+          8
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          3,
+          -2
+        ],
+        [
+          1,
+          2,
+          -7
+        ],
+        [
+          5,
+          4,
+          -4
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        null,
+        null,
+        null,
+        0,
+        null,
+        null
+      ],
+      "parent_edge": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_28_dsu_196",
+    "input": {
+      "task": "dsu",
+      "n": 2,
+      "operations": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_28_kruskal_197",
+    "input": {
+      "task": "kruskal",
+      "n": 2,
+      "edges": [
+        [
+          1,
+          1,
+          -6
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          -7
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 1,
+      "edge_ids": [
+        1
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_28_prim_198",
+    "input": {
+      "task": "prim",
+      "n": 2,
+      "edges": [
+        [
+          1,
+          1,
+          -6
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          -7
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 1,
+      "edge_ids": [
+        1
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_28_scc_199",
+    "input": {
+      "task": "scc",
+      "n": 2,
+      "edges": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        0
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_28_topo_200",
+    "input": {
+      "task": "topo",
+      "n": 2,
+      "edges": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_28_dag_201",
+    "input": {
+      "task": "dag",
+      "n": 2,
+      "source": 0,
+      "edges": [
+        [
+          1,
+          1,
+          -6
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          -7
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_28_dag_202",
+    "input": {
+      "task": "dag",
+      "n": 2,
+      "source": 1,
+      "edges": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          -4
+        ],
+        [
+          0,
+          1,
+          -5
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        null,
+        0
+      ],
+      "parent_edge": [
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_29_dsu_203",
+    "input": {
+      "task": "dsu",
+      "n": 6,
+      "operations": []
+    },
+    "expected": {
+      "states": []
+    }
+  },
+  {
+    "name": "random_29_kruskal_204",
+    "input": {
+      "task": "kruskal",
+      "n": 6,
+      "edges": []
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 6
+    }
+  },
+  {
+    "name": "random_29_prim_205",
+    "input": {
+      "task": "prim",
+      "n": 6,
+      "edges": []
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 6
+    }
+  },
+  {
+    "name": "random_29_scc_206",
+    "input": {
+      "task": "scc",
+      "n": 6,
+      "edges": []
+    },
+    "expected": {
+      "component": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_29_topo_207",
+    "input": {
+      "task": "topo",
+      "n": 6,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "name": "random_29_dag_208",
+    "input": {
+      "task": "dag",
+      "n": 6,
+      "source": 0,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "parent_edge": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_29_dag_209",
+    "input": {
+      "task": "dag",
+      "n": 6,
+      "source": 4,
+      "edges": [
+        [
+          3,
+          2,
+          -3
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          0,
+          4,
+          -5
+        ],
+        [
+          2,
+          5,
+          0
+        ],
+        [
+          5,
+          4,
+          0
+        ],
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          2,
+          0,
+          5
+        ],
+        [
+          0,
+          5,
+          -6
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        null,
+        null,
+        null,
+        null,
+        0,
+        null
+      ],
+      "parent_edge": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_30_dsu_210",
+    "input": {
+      "task": "dsu",
+      "n": 4,
+      "operations": [
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_30_kruskal_211",
+    "input": {
+      "task": "kruskal",
+      "n": 4,
+      "edges": [
+        [
+          2,
+          3,
+          -3
+        ],
+        [
+          0,
+          2,
+          -6
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          -2
+        ],
+        [
+          3,
+          3,
+          -2
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -11,
+      "edge_ids": [
+        0,
+        1,
+        3
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_30_prim_212",
+    "input": {
+      "task": "prim",
+      "n": 4,
+      "edges": [
+        [
+          2,
+          3,
+          -3
+        ],
+        [
+          0,
+          2,
+          -6
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          -2
+        ],
+        [
+          3,
+          3,
+          -2
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -11,
+      "edge_ids": [
+        0,
+        1,
+        3
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_30_scc_213",
+    "input": {
+      "task": "scc",
+      "n": 4,
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "condensation": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_30_topo_214",
+    "input": {
+      "task": "topo",
+      "n": 4,
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_30_dag_215",
+    "input": {
+      "task": "dag",
+      "n": 4,
+      "source": 3,
+      "edges": [
+        [
+          2,
+          3,
+          -3
+        ],
+        [
+          0,
+          2,
+          -6
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          -2
+        ],
+        [
+          3,
+          3,
+          -2
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_30_dag_216",
+    "input": {
+      "task": "dag",
+      "n": 4,
+      "source": 3,
+      "edges": [
+        [
+          1,
+          3,
+          3
+        ],
+        [
+          2,
+          0,
+          6
+        ],
+        [
+          2,
+          1,
+          -2
+        ],
+        [
+          1,
+          0,
+          -5
+        ],
+        [
+          1,
+          3,
+          -6
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          2,
+          1,
+          -2
+        ],
+        [
+          0,
+          3,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        null,
+        null,
+        null,
+        0
+      ],
+      "parent_edge": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_31_dsu_217",
+    "input": {
+      "task": "dsu",
+      "n": 4,
+      "operations": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_31_kruskal_218",
+    "input": {
+      "task": "kruskal",
+      "n": 4,
+      "edges": [
+        [
+          1,
+          2,
+          -7
+        ],
+        [
+          0,
+          0,
+          -4
+        ],
+        [
+          2,
+          0,
+          -5
+        ],
+        [
+          1,
+          0,
+          4
+        ],
+        [
+          2,
+          0,
+          -5
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -8,
+      "edge_ids": [
+        0,
+        2,
+        5
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_31_prim_219",
+    "input": {
+      "task": "prim",
+      "n": 4,
+      "edges": [
+        [
+          1,
+          2,
+          -7
+        ],
+        [
+          0,
+          0,
+          -4
+        ],
+        [
+          2,
+          0,
+          -5
+        ],
+        [
+          1,
+          0,
+          4
+        ],
+        [
+          2,
+          0,
+          -5
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -8,
+      "edge_ids": [
+        0,
+        2,
+        5
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_31_scc_220",
+    "input": {
+      "task": "scc",
+      "n": 4,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "condensation": [
+        [
+          0,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_31_topo_221",
+    "input": {
+      "task": "topo",
+      "n": 4,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_31_dag_222",
+    "input": {
+      "task": "dag",
+      "n": 4,
+      "source": 3,
+      "edges": [
+        [
+          1,
+          2,
+          -7
+        ],
+        [
+          0,
+          0,
+          -4
+        ],
+        [
+          2,
+          0,
+          -5
+        ],
+        [
+          1,
+          0,
+          4
+        ],
+        [
+          2,
+          0,
+          -5
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_31_dag_223",
+    "input": {
+      "task": "dag",
+      "n": 4,
+      "source": 2,
+      "edges": [
+        [
+          2,
+          0,
+          -8
+        ],
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          1,
+          3,
+          -1
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          6
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        -8,
+        null,
+        0,
+        -8
+      ],
+      "parent_edge": [
+        0,
+        -1,
+        -1,
+        3
+      ]
+    }
+  },
+  {
+    "name": "random_32_dsu_224",
+    "input": {
+      "task": "dsu",
+      "n": 5,
+      "operations": [
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          4,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_32_kruskal_225",
+    "input": {
+      "task": "kruskal",
+      "n": 5,
+      "edges": [
+        [
+          3,
+          2,
+          -1
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -1,
+      "edge_ids": [
+        0
+      ],
+      "components": 4
+    }
+  },
+  {
+    "name": "random_32_prim_226",
+    "input": {
+      "task": "prim",
+      "n": 5,
+      "edges": [
+        [
+          3,
+          2,
+          -1
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -1,
+      "edge_ids": [
+        0
+      ],
+      "components": 4
+    }
+  },
+  {
+    "name": "random_32_scc_227",
+    "input": {
+      "task": "scc",
+      "n": 5,
+      "edges": [
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "condensation": [
+        [
+          3,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_32_topo_228",
+    "input": {
+      "task": "topo",
+      "n": 5,
+      "edges": [
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "order": [
+        0,
+        1,
+        3,
+        4,
+        2
+      ]
+    }
+  },
+  {
+    "name": "random_32_dag_229",
+    "input": {
+      "task": "dag",
+      "n": 5,
+      "source": 2,
+      "edges": [
+        [
+          3,
+          2,
+          -1
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        null,
+        null,
+        0,
+        null,
+        null
+      ],
+      "parent_edge": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_32_dag_230",
+    "input": {
+      "task": "dag",
+      "n": 5,
+      "source": 1,
+      "edges": [
+        [
+          3,
+          2,
+          -3
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          3,
+          2,
+          8
+        ],
+        [
+          1,
+          3,
+          6
+        ],
+        [
+          0,
+          3,
+          -2
+        ],
+        [
+          1,
+          0,
+          6
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        1,
+        0,
+        -4,
+        -1,
+        null
+      ],
+      "parent_edge": [
+        6,
+        -1,
+        0,
+        4,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_33_dsu_231",
+    "input": {
+      "task": "dsu",
+      "n": 1,
+      "operations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_33_kruskal_232",
+    "input": {
+      "task": "kruskal",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_33_prim_233",
+    "input": {
+      "task": "prim",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_33_scc_234",
+    "input": {
+      "task": "scc",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_33_topo_235",
+    "input": {
+      "task": "topo",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_33_dag_236",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": [
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_33_dag_237",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0
+      ],
+      "parent_edge": [
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_34_dsu_238",
+    "input": {
+      "task": "dsu",
+      "n": 1,
+      "operations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_34_kruskal_239",
+    "input": {
+      "task": "kruskal",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          -2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_34_prim_240",
+    "input": {
+      "task": "prim",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          -2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_34_scc_241",
+    "input": {
+      "task": "scc",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_34_topo_242",
+    "input": {
+      "task": "topo",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_34_dag_243",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": [
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          -2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_34_dag_244",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0
+      ],
+      "parent_edge": [
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_35_dsu_245",
+    "input": {
+      "task": "dsu",
+      "n": 6,
+      "operations": []
+    },
+    "expected": {
+      "states": []
+    }
+  },
+  {
+    "name": "random_35_kruskal_246",
+    "input": {
+      "task": "kruskal",
+      "n": 6,
+      "edges": []
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 6
+    }
+  },
+  {
+    "name": "random_35_prim_247",
+    "input": {
+      "task": "prim",
+      "n": 6,
+      "edges": []
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 6
+    }
+  },
+  {
+    "name": "random_35_scc_248",
+    "input": {
+      "task": "scc",
+      "n": 6,
+      "edges": []
+    },
+    "expected": {
+      "component": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_35_topo_249",
+    "input": {
+      "task": "topo",
+      "n": 6,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "name": "random_35_dag_250",
+    "input": {
+      "task": "dag",
+      "n": 6,
+      "source": 5,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "parent_edge": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_35_dag_251",
+    "input": {
+      "task": "dag",
+      "n": 6,
+      "source": 0,
+      "edges": [
+        [
+          1,
+          4,
+          -1
+        ],
+        [
+          3,
+          5,
+          4
+        ],
+        [
+          2,
+          5,
+          0
+        ],
+        [
+          1,
+          3,
+          6
+        ],
+        [
+          1,
+          4,
+          -5
+        ],
+        [
+          5,
+          4,
+          4
+        ],
+        [
+          3,
+          4,
+          7
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "parent_edge": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_36_dsu_252",
+    "input": {
+      "task": "dsu",
+      "n": 6,
+      "operations": [
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          6,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_36_kruskal_253",
+    "input": {
+      "task": "kruskal",
+      "n": 6,
+      "edges": [
+        [
+          4,
+          4,
+          -4
+        ],
+        [
+          5,
+          4,
+          7
+        ],
+        [
+          3,
+          2,
+          -2
+        ],
+        [
+          2,
+          4,
+          6
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 11,
+      "edge_ids": [
+        1,
+        2,
+        3
+      ],
+      "components": 3
+    }
+  },
+  {
+    "name": "random_36_prim_254",
+    "input": {
+      "task": "prim",
+      "n": 6,
+      "edges": [
+        [
+          4,
+          4,
+          -4
+        ],
+        [
+          5,
+          4,
+          7
+        ],
+        [
+          3,
+          2,
+          -2
+        ],
+        [
+          2,
+          4,
+          6
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 11,
+      "edge_ids": [
+        1,
+        2,
+        3
+      ],
+      "components": 3
+    }
+  },
+  {
+    "name": "random_36_scc_255",
+    "input": {
+      "task": "scc",
+      "n": 6,
+      "edges": [
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "condensation": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_36_topo_256",
+    "input": {
+      "task": "topo",
+      "n": 6,
+      "edges": [
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_36_dag_257",
+    "input": {
+      "task": "dag",
+      "n": 6,
+      "source": 5,
+      "edges": [
+        [
+          4,
+          4,
+          -4
+        ],
+        [
+          5,
+          4,
+          7
+        ],
+        [
+          3,
+          2,
+          -2
+        ],
+        [
+          2,
+          4,
+          6
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_36_dag_258",
+    "input": {
+      "task": "dag",
+      "n": 6,
+      "source": 1,
+      "edges": [
+        [
+          2,
+          3,
+          -6
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          0,
+          4,
+          -1
+        ],
+        [
+          0,
+          3,
+          -2
+        ],
+        [
+          0,
+          3,
+          -7
+        ],
+        [
+          1,
+          0,
+          4
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        4,
+        0,
+        null,
+        -3,
+        3,
+        null
+      ],
+      "parent_edge": [
+        5,
+        -1,
+        -1,
+        4,
+        2,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_37_dsu_259",
+    "input": {
+      "task": "dsu",
+      "n": 5,
+      "operations": [
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_37_kruskal_260",
+    "input": {
+      "task": "kruskal",
+      "n": 5,
+      "edges": [
+        [
+          1,
+          1,
+          7
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 5,
+      "edge_ids": [
+        1,
+        2
+      ],
+      "components": 3
+    }
+  },
+  {
+    "name": "random_37_prim_261",
+    "input": {
+      "task": "prim",
+      "n": 5,
+      "edges": [
+        [
+          1,
+          1,
+          7
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 5,
+      "edge_ids": [
+        1,
+        2
+      ],
+      "components": 3
+    }
+  },
+  {
+    "name": "random_37_scc_262",
+    "input": {
+      "task": "scc",
+      "n": 5,
+      "edges": [
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "condensation": [
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_37_topo_263",
+    "input": {
+      "task": "topo",
+      "n": 5,
+      "edges": [
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_37_dag_264",
+    "input": {
+      "task": "dag",
+      "n": 5,
+      "source": 2,
+      "edges": [
+        [
+          1,
+          1,
+          7
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_37_dag_265",
+    "input": {
+      "task": "dag",
+      "n": 5,
+      "source": 1,
+      "edges": [
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          4,
+          3,
+          -5
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          3,
+          -5
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          4,
+          -2
+        ],
+        [
+          1,
+          3,
+          -2
+        ],
+        [
+          0,
+          3,
+          7
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        1,
+        0,
+        null,
+        -7,
+        -2
+      ],
+      "parent_edge": [
+        4,
+        -1,
+        -1,
+        1,
+        5
+      ]
+    }
+  },
+  {
+    "name": "random_38_dsu_266",
+    "input": {
+      "task": "dsu",
+      "n": 1,
+      "operations": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_38_kruskal_267",
+    "input": {
+      "task": "kruskal",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          -4
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_38_prim_268",
+    "input": {
+      "task": "prim",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0,
+          -4
+        ]
+      ]
+    },
+    "expected": {
+      "cost": 0,
+      "edge_ids": [],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_38_scc_269",
+    "input": {
+      "task": "scc",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0
+      ],
+      "condensation": []
+    }
+  },
+  {
+    "name": "random_38_topo_270",
+    "input": {
+      "task": "topo",
+      "n": 1,
+      "edges": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_38_dag_271",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": [
+        [
+          0,
+          0,
+          -4
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_38_dag_272",
+    "input": {
+      "task": "dag",
+      "n": 1,
+      "source": 0,
+      "edges": []
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        0
+      ],
+      "parent_edge": [
+        -1
+      ]
+    }
+  },
+  {
+    "name": "random_39_dsu_273",
+    "input": {
+      "task": "dsu",
+      "n": 3,
+      "operations": [
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    "expected": {
+      "states": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_39_kruskal_274",
+    "input": {
+      "task": "kruskal",
+      "n": 3,
+      "edges": [
+        [
+          2,
+          2,
+          8
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          -8
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          1,
+          -2
+        ],
+        [
+          0,
+          2,
+          -5
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -13,
+      "edge_ids": [
+        3,
+        6
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_39_prim_275",
+    "input": {
+      "task": "prim",
+      "n": 3,
+      "edges": [
+        [
+          2,
+          2,
+          8
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          -8
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          1,
+          -2
+        ],
+        [
+          0,
+          2,
+          -5
+        ]
+      ]
+    },
+    "expected": {
+      "cost": -13,
+      "edge_ids": [
+        3,
+        6
+      ],
+      "components": 1
+    }
+  },
+  {
+    "name": "random_39_scc_276",
+    "input": {
+      "task": "scc",
+      "n": 3,
+      "edges": [
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    "expected": {
+      "component": [
+        0,
+        1,
+        2
+      ],
+      "condensation": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "name": "random_39_topo_277",
+    "input": {
+      "task": "topo",
+      "n": 3,
+      "edges": [
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "order": []
+    }
+  },
+  {
+    "name": "random_39_dag_278",
+    "input": {
+      "task": "dag",
+      "n": 3,
+      "source": 0,
+      "edges": [
+        [
+          2,
+          2,
+          8
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          -8
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          1,
+          -2
+        ],
+        [
+          0,
+          2,
+          -5
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": false,
+      "distance": [],
+      "parent_edge": []
+    }
+  },
+  {
+    "name": "random_39_dag_279",
+    "input": {
+      "task": "dag",
+      "n": 3,
+      "source": 2,
+      "edges": [
+        [
+          0,
+          1,
+          -4
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          2,
+          1,
+          8
+        ],
+        [
+          0,
+          2,
+          -7
+        ],
+        [
+          0,
+          1,
+          -3
+        ]
+      ]
+    },
+    "expected": {
+      "acyclic": true,
+      "distance": [
+        null,
+        8,
+        0
+      ],
+      "parent_edge": [
+        -1,
+        5,
+        -1
+      ]
+    }
+  }
+]
